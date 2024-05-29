@@ -1,0 +1,425 @@
+.flex-container{
+    width: 100%;
+    margin-bottom: 10px;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.flex-child1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.flex-child2{
+    font-size: larger;
+    font-weight: bolder;
+}
+.flex-child3{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 1PX;
+    background-color: black;
+    color: white;
+    border-radius:25px ;
+}
+#calender-icon{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: orangered;
+}
+.bg-banner{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;http://127.0.0.1:3000/project/index.html#myCarousel
+}
+.bg-banner-text{
+    width: 60%;
+    position: absolute;
+    top:30%;
+    left:20%;
+    font-size: x-large;
+    font-weight: bolder;
+    color:white
+}
+.bg-banner-para{
+    padding: 1px;
+    background-color: white;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+.bg-banner-span{
+    color:orangered;
+}
+.grid-container1{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 550px 550px 600px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.grid-container1-child1{
+    position: relative;
+    text-align: center;
+}
+.grid-container1-span{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: orangered;
+    position: absolute;
+    left: 0%;
+    bottom: 0px;
+}
+.grid-container1-child2-span{
+    color: orange;
+    font-weight: bolder;
+}
+.grid-container1-child2-div{
+    width: 100%;
+    height: 230px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: ghostwhite;
+
+}
+.grid-container1-child3{
+    box-shadow: 2px 2px 5px;
+}
+.grid-container1-child3-div1{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+}
+.grid-container1-child3-div2{
+    display: inline-block;
+    margin-right: 5PX;
+    float:right;
+}
+.video-bg-banner{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 1;
+}
+.video-text{
+    width: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    position: absolute;
+    left:30%;
+    top:5%;
+}
+.video-img{
+    width:60%;
+    position: absolute;
+    top:60%;
+    left: 20%;
+}
+.video-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(220, 97, 20);
+    position: absolute;
+    left: 45%;
+    top:70%;
+    text-align: center;
+    padding: 10px 
+}
+#video-icon-radius{
+    width: 30px;
+    height: 30px;
+    margin-top: 9px;
+    border-radius: 50%;
+    background-color: white;
+}
+.grid-orange-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60%;
+    grid-template-rows: 150px 150px 150px;
+    gap:20px;
+    align-self:center;
+    justify-content: center;
+}
+.grid-orange-box-child{
+    position: relative;
+}
+.grid-orange-box-child-div{
+    width:95%;
+    height: 110px;
+    margin-top: 20px;
+    background-color: oldlace;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.grid-orange-box-child-span{
+    width: 20%;
+    color: orangered;
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.grid-orange-box-child-para{
+    width: 60%;
+    font-size: medium;
+    font-weight:bolder;
+
+}
+.grid-orange-box-radius{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orangered;
+    position: absolute;
+    top:2px;
+    right:8px;
+}
+.best-deal-div{
+    width: 100%;
+}
+.best-deal-div-para{
+    color: orange;
+    font-weight: bolder;
+}
+.best-deal-div-orange{
+    width:100px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+.best-deal-div-black{
+    width:100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+
+}
+.grid-container2{
+    width:100% ;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 350px 400px 400px;
+    gap: 10px;
+    margin-top: 100px;
+    background-color:ghostwhite;
+  }
+  .grid-container2-child3-div{
+    width: 180px;
+    height: 30px;
+    border-radius: 28px;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    padding-bottom: 12px;
+
+}
+.grid-container2-child1-div{
+    width: 100%;
+    height:50px;
+    border-bottom: 1px solid;
+
+}
+.grid-container2-child1-div-span{
+    font-weight: lighter;
+    
+}
+.grid-container2-child1-div-span-bold{
+    
+    font-weight: bolder;
+    font-size:x-large;
+    float: right;
+}
+.properties{
+    width: 100%;
+    text-align: center;
+}
+.properties-para{
+    color: orange;
+    font-weight: bolder;
+}
+.grid-container3{
+    width: 100%;
+    display: grid;
+    background-color:ghostwhite;
+    grid-template-columns: 90%;
+    grid-template-rows: 550px 550px 550px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.grid-container3-span1{
+    padding: 5px;
+    background-color: oldlace;
+    border-radius: 20px;
+}
+.grid-container3-span2{
+    color: orangered;
+    font-size: larger;
+    font-weight: bolder;
+    float: right;
+}
+.grid-container3-button{
+    margin-left: 25%;
+    width:150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.grid-container3-button:hover{
+    background-color: orangered;
+}
+.contact{
+    width: 100%;
+    height: 1500px;
+    position: relative;
+}
+.contact-absolute{
+    width: 70%;
+    height: 150px;
+    position: absolute;
+    color: white;
+    top: 5%;
+    left:20%;
+}
+.contact-absolute-para{
+    text-align: center;
+    color: orange;
+    font-weight: bolder;
+}
+.contact-iframe{
+    width: 80%;
+    height: 600px;
+    position: absolute;
+    top:20%;
+    left:10%;
+}
+.flex{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 2px 2px 3px;
+}
+.forms{
+    margin-top: 50px;
+    width: 100%;
+    box-shadow: 2px 2px 5px;
+}
+label{
+    font-size: large;
+    padding:10px 30px 10px 10px ;
+    margin-left: 10px;
+}
+input{
+    width: 90%;
+    height: 30px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    padding: 5px;
+    border:none;
+    margin-left: 10px;
+}
+
+textarea{
+    width: 90%;
+    height: 70px;
+    padding: 5px;
+    background-color: ghostwhite;
+    border-radius: 20px;
+    border: none;
+}
+.forms-button{
+    width: 50p;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.footer{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+ @media  screen and (min-width:551px) and (max-width:2000px) {
+    .flex-container{
+        margin-top: 10px;
+        height: 50px;
+        position: sticky;
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-between;
+        z-index: 1;
+    } 
+      #bg-banner{
+        width: 100%;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;  
+     }   
+        
+     .grid-container1{
+        width:100%;
+        height: 700px;
+        display: grid;
+        grid-template-columns: 30% 35% 30%;
+        grid-template-rows: 700px;
+        justify-content: center;
+        gap:5px;
+    }
+     .grid-orange-box{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 250px;
+        justify-content: center;
+        gap: 10px;
+    }
+    .best-deal-div-span{
+        float:right;
+    } 
+     .grid-container2{
+        width:100% ;
+        display: grid;
+        grid-template-columns: 30% 35% 30%;
+        grid-template-rows:600px;
+        gap: 5px;
+        margin-top: 10px;
+        justify-content: center;
+      }
+      .grid-container3{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 800px ;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        vertical-align: top;
+    }
+}    
